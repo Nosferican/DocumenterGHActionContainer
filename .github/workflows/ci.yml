@@ -11,7 +11,7 @@ on:
       - created
 jobs:
   ci:
-    # container: node:current
+    container: node:current
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
