@@ -3,13 +3,13 @@
 ## Public
 
 ```@autodocs
-Modules = [PkgTPL]
+Modules = [DocumenterGHActionContainer]
 Private = false
 ```
 
 ## Private
 
 ```@autodocs
-Modules = [PkgTPL]
+Modules = [DocumenterGHActionContainer]
 Public = false
 ```

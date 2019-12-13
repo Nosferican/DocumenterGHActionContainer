@@ -1,4 +1,4 @@
-name = "PkgTPL"
+name = "DocumenterGHActionContainer"
 uuid = "c7410679-6c1e-4839-8975-fcd3532f9136"
 authors = ["José Bayoán Santiago Calderón <naoyabpr@gmail.com>"]
 version = "0.1.0"

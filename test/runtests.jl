@@ -1,6 +1,6 @@
-using Test, Documenter, PkgTPL
-DocMeta.setdocmeta!(PkgTPL, :DocTestSetup, :(using PkgTPL), recursive = true)
+using Test, Documenter, DocumenterGHActionContainer
+DocMeta.setdocmeta!(DocumenterGHActionContainer, :DocTestSetup, :(using DocumenterGHActionContainer), recursive = true)
 
-@testset "PkgTPL" begin
-    doctest(PkgTPL)
+@testset "DocumenterGHActionContainer" begin
+    doctest(DocumenterGHActionContainer)
 end

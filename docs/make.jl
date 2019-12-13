@@ -1,11 +1,11 @@
 push!(LOAD_PATH, joinpath("..", "src"))
 
-using Documenter, PkgTPL
+using Documenter, DocumenterGHActionContainer
 
-DocMeta.setdocmeta!(PkgTPL, :DocTestSetup, :(using PkgTPL), recursive = true)
+DocMeta.setdocmeta!(DocumenterGHActionContainer, :DocTestSetup, :(using DocumenterGHActionContainer), recursive = true)
 
-makedocs(sitename = "PkgTPL",
-         modules = [PkgTPL],
+makedocs(sitename = "DocumenterGHActionContainer",
+         modules = [DocumenterGHActionContainer],
          pages = [
              "Home" => "index.md",
              "API" => "api.md"
@@ -13,6 +13,6 @@ makedocs(sitename = "PkgTPL",
 )
 
 deploydocs(
-    repo   = "github.com/Nosferican/PkgTPL.jl.git",
+    repo   = "github.com/Nosferican/DocumenterGHActionContainer.jl.git",
     push_preview = true
 )

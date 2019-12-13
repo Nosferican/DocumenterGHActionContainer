@@ -1,7 +1,17 @@
 name: CI
-on: push
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  release:
+    types:
+      - created
 jobs:
   ci:
+    # container: node:current
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
